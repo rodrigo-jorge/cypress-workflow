@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       base_url:
-        description: 'A custom message for the workflow run'
+        description: 'Base url'
         required: true
         type: string
 
