@@ -5,6 +5,13 @@ on:
         required: true
         type: string
 
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: 'A custom message for the workflow run'
+        required: true
+        type: string
+
 env:
   WORK_DIR: cypress-test
 
