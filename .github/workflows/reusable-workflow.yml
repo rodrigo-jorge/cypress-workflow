@@ -23,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          repository: "xdigu/cypress-workflow"
+          repository: "rodrigo-jorge/cypress-workflow"
           path: ${{ github.env.WORK_DIR }}
           ref: "main"
 
